@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style/main.css">
+	<link rel="stylesheet" href="/style/adaptive.css">
+	<title>Properties</title>
+</head>
+<body>
+	<header>
+		<div id="header-inner">
+			<div id="our-company">
+				<div id="icon"></div>
+				<div>Realco</div>
+			</div>
+			<div id="heder-second">
+				<div style="display: flex">
+					<div class="open-nav">
+						<div></div>
+					</div>
+					<div id="header-second">
+						<nav style="grid-template-columns: repeat(4, 1fr);">
+							<li><a href="index.html#gt-s1">Home</a></li>
+							<li><a href="index.html#gt-s3">About</a></li>
+							<li><a href="index.html#gt-s10">Contact</a></li>
+							<li>
+								<div class="input-plus-btn">
+										<div class="inputes">
+											<input type="text" id="search" required="required">
+											<label for="search"><i class="fa-solid fa-magnifying-glass"></i>Search</label>
+										</div>
+										<button type="submit" id="search-bnt">Search</button>
+								</div>
+							</li>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="space"></div>
+
+	<section id="s5">
+		<div class="goto" id="gt-s5"></div>
+		<img class="gray-images" id="s5-1img" src="./img/s5-first.svg" />
+		<div class="gray-baground">Properties</div>
+		<h2>Houses in your favorite area</h2>
+		<img class="gray-images" id="s5-2img" src="./img/s5-first.svg" />
+		<div class="centre">
+			<div class="properties-items" style="height: 100%;">
+				<template id="item">
+					<div class="one-item">
+						<img src="./img/s5-item1.jpg" alt="room" />
+						<div class="description-item">
+							<h3>text</h3>
+							<p class="costs">$000</p>
+							<p class="where">
+								<i class="fa-solid fa-location-dot"></i>Locations
+							</p>
+							<div class="some-description">
+								<span class="bathrooms"><i class="fa-solid fa-bath"></i></span>
+								<span class="bedrooms"><img src="./img/bed.svg" alt="bedrooms" /></span>
+								<span class="sqft"><i class="fa-solid fa-ruler"></i></span>
+							</div>
+						</div>
+					</div>
+				</template>
+			</div>
+	</section>
+
+	<script
+	src="https://kit.fontawesome.com/c759d8511b.js"
+	crossorigin="anonymous"
+></script>
+
+<script src="/propertyJs.js"></script>
+</body>
+</html>
